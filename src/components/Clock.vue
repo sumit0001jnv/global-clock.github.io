@@ -98,20 +98,19 @@ export default {
         .attr("r", clockRadius)
         .attr("cx", _this.width / 2)
         .attr("cy", _this.height / 2);
-      svg
-        .append("image")
-        // .attr("xlink:href", "statue-of-liberty-cp.png")
-        .attr(
-          "xlink:href",
-          this.country === "India"
-            ? "mahatma-gandhi.png"
-            : "statue-of-liberty-cp.png"
-        )
-        // .attr("class", "statue-of-liberty-img")
-        .attr(
-          "class",
-          this.country === "India" ? "mg-img" : "statue-of-liberty-img"
-        );
+      // svg
+      //   .append("image")
+      //   // .attr("xlink:href", "statue-of-liberty-cp.png")
+      //   .attr(
+      //     "xlink:href",
+      //     this.country === "India"
+      //       ? "mahatma-gandhi.png"
+      //       : "statue-of-liberty-cp.png"
+      //   )
+      //   .attr(
+      //     "class",
+      //     this.country === "India" ? "mg-img" : "statue-of-liberty-img"
+      //   );
 
       function drawClock() {
         //create all the clock elements
