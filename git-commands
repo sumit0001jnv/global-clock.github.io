@@ -1,0 +1,12 @@
+#git commonds
+git init
+git config --global user.name sumit0001
+git config --global user.email sumit0001.jnv@gmail.com
+
+git remote add origin https://github.com/sumit0001jnv/globalClock.git
+
+git pull Or git pull origin master
+
+git add .
+git commit -m <message>
+git push -u origin master
